@@ -2,7 +2,7 @@
     <content><![CDATA[
 block ${1:name}, elem ${2:name} {
     
-    ${3:c}${3/(t)|(c)|(d)|(a)|(j)|(b).*/(?1:ag)(?2:ontent)(?3:efault)(?4:ttrs)(?5:s)/}(?6:em): ${0}
+    ${3:c}${3/(t)|(c)|(d)|(a)|(j)|(b).*/(?1:ag)(?2:ontent)(?3:efault)(?4:ttrs)(?5:s)(?6:em)/}: ${0}
 }
 
 ]]></content>
