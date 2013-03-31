@@ -4,6 +4,7 @@ block ${1:name}, elem ${2:name}, elemMod ${3:name} ${4:value} {
     
     ${5:c}${5/(t)|(c)|(d)|(a)|(j).*/(?1:ag)(?2:ontent)(?3:efault)(?4:ttrs)(?5:s)/}: ${0}
 }
+
 ]]></content>
     <tabTrigger>elemmod</tabTrigger>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

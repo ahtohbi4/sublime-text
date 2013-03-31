@@ -4,6 +4,7 @@ block ${1:name}, mod ${2:name} ${3:value} {
     
     ${4:c}${4/(t)|(c)|(d)|(a)|(j).*/(?1:ag)(?2:ontent)(?3:efault)(?4:ttrs)(?5:s)/}: ${0}
 }
+
 ]]></content>
     <tabTrigger>mod</tabTrigger>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
